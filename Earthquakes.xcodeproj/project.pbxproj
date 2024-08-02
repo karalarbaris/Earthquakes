@@ -21,6 +21,7 @@
 		AD43F1FA26158CD50068AABC /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD43F1F826158CD50068AABC /* Quake.swift */; };
 		AD57B10226561FE1005183D0 /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57B10126561FE1005183D0 /* Quakes.swift */; };
 		ADDDB1812625242200241A73 /* QuakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB1802625242200241A73 /* QuakeRow.swift */; };
+		B9EA30232C5CA35F00BB6658 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA30222C5CA35F00BB6658 /* QuakeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		AD43F1F826158CD50068AABC /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
 		AD57B10126561FE1005183D0 /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
 		ADDDB1802625242200241A73 /* QuakeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeRow.swift; sourceTree = "<group>"; };
+		B9EA30222C5CA35F00BB6658 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			children = (
 				AD43F1F826158CD50068AABC /* Quake.swift */,
 				7CC62564273C2A9200F87758 /* Quake+Color.swift */,
+				B9EA30222C5CA35F00BB6658 /* QuakeError.swift */,
 			);
 			name = Models;
 			path = Earthquakes/Models;
@@ -229,6 +232,7 @@
 				AA988DDB27E9028A004EA073 /* ToolbarStatus.swift in Sources */,
 				AA988DD327E900B6004EA073 /* Quakes+Toolbar.swift in Sources */,
 				AA988DDD27E9030A004EA073 /* DeleteButton.swift in Sources */,
+				B9EA30232C5CA35F00BB6658 /* QuakeError.swift in Sources */,
 				AA988DD927E901B0004EA073 /* RefreshButton.swift in Sources */,
 				AD57B10226561FE1005183D0 /* Quakes.swift in Sources */,
 				AD43F1FA26158CD50068AABC /* Quake.swift in Sources */,
@@ -362,11 +366,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Earthquakes/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ETARS989MB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -381,7 +385,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-experimental-concurrency";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Earthquakes${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karalarbaris.Earthquakes;
 				PRODUCT_NAME = Earthquakes;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -397,11 +401,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Earthquakes/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ETARS989MB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -416,7 +420,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-experimental-concurrency";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Earthquakes${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karalarbaris.Earthquakes;
 				PRODUCT_NAME = Earthquakes;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
