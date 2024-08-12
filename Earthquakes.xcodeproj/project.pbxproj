@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,11 +21,12 @@
 		AD43F1FA26158CD50068AABC /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD43F1F826158CD50068AABC /* Quake.swift */; };
 		AD57B10226561FE1005183D0 /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57B10126561FE1005183D0 /* Quakes.swift */; };
 		ADDDB1812625242200241A73 /* QuakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDDB1802625242200241A73 /* QuakeRow.swift */; };
+		B9796D0D2C6A845F00217090 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA30312C5CA9AF00BB6658 /* TestData.swift */; };
+		B9796D0F2C6A847C00217090 /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9796D0E2C6A847C00217090 /* TestDownloader.swift */; };
 		B9B78E3F2C64ADF70069B407 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B78E3E2C64ADF70069B407 /* HTTPDataDownloader.swift */; };
 		B9B78E412C64BA770069B407 /* QuakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B78E402C64BA770069B407 /* QuakeClient.swift */; };
 		B9EA30232C5CA35F00BB6658 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA30222C5CA35F00BB6658 /* QuakeError.swift */; };
 		B9EA302B2C5CA96400BB6658 /* EarthquakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA302A2C5CA96400BB6658 /* EarthquakesTests.swift */; };
-		B9EA30322C5CA9AF00BB6658 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA30312C5CA9AF00BB6658 /* TestData.swift */; };
 		B9EA30342C61F54800BB6658 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA30332C61F54800BB6658 /* GeoJSON.swift */; };
 		B9EA30362C6225D900BB6658 /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA30352C6225D900BB6658 /* QuakeLocation.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		AD43F1F826158CD50068AABC /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
 		AD57B10126561FE1005183D0 /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
 		ADDDB1802625242200241A73 /* QuakeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeRow.swift; sourceTree = "<group>"; };
+		B9796D0E2C6A847C00217090 /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
 		B9B78E3E2C64ADF70069B407 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 		B9B78E402C64BA770069B407 /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
 		B9EA30222C5CA35F00BB6658 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
@@ -148,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				AD43F1EC26158A660068AABC /* Preview Assets.xcassets */,
+				B9EA30312C5CA9AF00BB6658 /* TestData.swift */,
+				B9796D0E2C6A847C00217090 /* TestDownloader.swift */,
 			);
 			name = "Preview Content";
 			path = "Earthquakes/Preview Content";
@@ -184,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				B9EA302A2C5CA96400BB6658 /* EarthquakesTests.swift */,
-				B9EA30312C5CA9AF00BB6658 /* TestData.swift */,
 			);
 			path = EarthquakesTests;
 			sourceTree = "<group>";
@@ -241,9 +244,10 @@
 		AD43F1DA26158A630068AABC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1540;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					AD43F1E126158A640068AABC = {
@@ -307,6 +311,7 @@
 				AD43F1E626158A640068AABC /* EarthquakesApp.swift in Sources */,
 				AA988DDB27E9028A004EA073 /* ToolbarStatus.swift in Sources */,
 				AA988DD327E900B6004EA073 /* Quakes+Toolbar.swift in Sources */,
+				B9796D0D2C6A845F00217090 /* TestData.swift in Sources */,
 				AA988DDD27E9030A004EA073 /* DeleteButton.swift in Sources */,
 				B9EA30232C5CA35F00BB6658 /* QuakeError.swift in Sources */,
 				B9EA30362C6225D900BB6658 /* QuakeLocation.swift in Sources */,
@@ -314,6 +319,7 @@
 				AA988DD927E901B0004EA073 /* RefreshButton.swift in Sources */,
 				B9B78E412C64BA770069B407 /* QuakeClient.swift in Sources */,
 				AD57B10226561FE1005183D0 /* Quakes.swift in Sources */,
+				B9796D0F2C6A847C00217090 /* TestDownloader.swift in Sources */,
 				AD43F1FA26158CD50068AABC /* Quake.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +329,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9EA302B2C5CA96400BB6658 /* EarthquakesTests.swift in Sources */,
-				B9EA30322C5CA9AF00BB6658 /* TestData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +479,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,7 +514,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
