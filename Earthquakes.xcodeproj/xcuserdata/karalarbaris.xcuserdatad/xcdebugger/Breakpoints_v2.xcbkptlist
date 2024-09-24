@@ -3,4 +3,186 @@
    uuid = "A0F0548B-42BB-48B4-81B4-EE5074E1F1FF"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C439EDAF-2A8C-48C2-BDFD-4B54AF696E20"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Earthquakes/Models/QuakeClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "init(downloader:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5BDF74F-63BA-4C1A-92C0-10B6F7FF9C35"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Earthquakes/Models/QuakeClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "quakes"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A5BDF74F-63BA-4C1A-92C0-10B6F7FF9C35 - a0802b0998fd7fdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Earthquakes.QuakeClient.quakes.getter : Swift.Array&lt;Earthquakes.Quake&gt;"
+                  moduleName = "Earthquakes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karalarbaris/Developer/Earthquakes/Earthquakes/Models/QuakeClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16">
+               </Location>
+               <Location
+                  uuid = "A5BDF74F-63BA-4C1A-92C0-10B6F7FF9C35 - bcc526567df34fe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Earthquakes.QuakeClient.quakes.getter : Swift.Array&lt;Earthquakes.Quake&gt;"
+                  moduleName = "Earthquakes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karalarbaris/Developer/Earthquakes/Earthquakes/Models/QuakeClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16">
+               </Location>
+               <Location
+                  uuid = "A5BDF74F-63BA-4C1A-92C0-10B6F7FF9C35 - 4931f8bcefd5bbd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Earthquakes.QuakeClient.quakes.getter : Swift.Array&lt;Earthquakes.Quake&gt;"
+                  moduleName = "Earthquakes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karalarbaris/Developer/Earthquakes/Earthquakes/Models/QuakeClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16">
+               </Location>
+               <Location
+                  uuid = "A5BDF74F-63BA-4C1A-92C0-10B6F7FF9C35 - 1d8eef166a2025de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Earthquakes.QuakeClient.quakes.getter : Swift.Array&lt;Earthquakes.Quake&gt;"
+                  moduleName = "Earthquakes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karalarbaris/Developer/Earthquakes/Earthquakes/Models/QuakeClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEF4D6D2-1A55-4FA6-97D9-7B67942946B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Earthquakes/Preview Content/TestDownloader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "httpData(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BEF4D6D2-1A55-4FA6-97D9-7B67942946B7 - e0781df4fc123fc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Earthquakes.TestDownloader.httpData(from: Foundation.URL) async throws -&gt; Foundation.Data"
+                  moduleName = "Earthquakes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karalarbaris/Developer/Earthquakes/Earthquakes/Preview%20Content/TestDownloader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+               <Location
+                  uuid = "BEF4D6D2-1A55-4FA6-97D9-7B67942946B7 - 3fa0a027c070ef9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Earthquakes.TestDownloader.httpData(from: Foundation.URL) async throws -&gt; Foundation.Data"
+                  moduleName = "Earthquakes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karalarbaris/Developer/Earthquakes/Earthquakes/Preview%20Content/TestDownloader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+               <Location
+                  uuid = "BEF4D6D2-1A55-4FA6-97D9-7B67942946B7 - 999501630f9debc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Earthquakes.TestDownloader.httpData(from: Foundation.URL) async throws -&gt; Foundation.Data"
+                  moduleName = "Earthquakes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karalarbaris/Developer/Earthquakes/Earthquakes/Preview%20Content/TestDownloader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+               <Location
+                  uuid = "BEF4D6D2-1A55-4FA6-97D9-7B67942946B7 - 55278b141663f1c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Earthquakes.TestDownloader.httpData(from: Foundation.URL) async throws -&gt; Foundation.Data"
+                  moduleName = "Earthquakes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karalarbaris/Developer/Earthquakes/Earthquakes/Preview%20Content/TestDownloader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "743B98CB-920E-4DC2-AE0A-05956AF9BCA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Earthquakes/Models/QuakeClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "decoder"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

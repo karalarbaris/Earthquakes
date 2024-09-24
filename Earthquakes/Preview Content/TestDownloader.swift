@@ -11,7 +11,7 @@ import Foundation
 class TestDownloader: HTTPDataDownloader {
     
     func httpData(from url: URL) async throws -> Data {
-        try await Task.sleep(for: .seconds(Int.random(in: 1...5)))
+        try await Task.sleep(for: .seconds(Int.random(in: 1...2)))
         return testQuakesData
     }
     

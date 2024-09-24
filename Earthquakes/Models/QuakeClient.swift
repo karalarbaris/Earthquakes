@@ -10,6 +10,15 @@ import Foundation
 
 class QuakeClient {
     
+    var quakes: [Quake] {
+        get async throws {
+//            fatalError("Unimplemented")
+            let data = try await downloader.httpData(from: feedURL)
+            let allQuakes = try decoder.decode(GeoJSON.self, from: data)
+            return allQuakes.quakes
+        }
+    }
+    
     private lazy var decoder: JSONDecoder = {
         let aDecoder = JSONDecoder()
         aDecoder.dateDecodingStrategy = .millisecondsSince1970
@@ -22,15 +31,6 @@ class QuakeClient {
     
     init(downloader: any HTTPDataDownloader = URLSession.shared) {
         self.downloader = downloader
-    }
-    
-    var quakes: [Quake] {
-        get async throws {
-//            fatalError("Unimplemented")
-            let data = try await downloader.httpData(from: feedURL)
-            let allQuakes = try decoder.decode(GeoJSON.self, from: data)
-            return allQuakes.quakes
-        }
     }
     
 }
